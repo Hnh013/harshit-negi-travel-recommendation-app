@@ -1,0 +1,55 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+:root {
+  --bg-col: rgb(175, 186, 199);
+  --btn-col: rgb(245, 245, 234);
+  --li-col: #d1d5db;
+  color: #000000;
+  --btn-bor: #000000;
+  --btn-txt: #000000;
+}
+
+.dark-mode {
+  --bg-col: rgb(80, 69, 56);
+  --li-col: #3f3b3e;
+  --btn-col: rgb(10, 10, 21);
+  color: #ffffff;
+  --btn-bor: #ffffff;
+  --btn-txt: #ffffff;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--bg-col);
+}
+
+p {
+  font-size: small;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  background: var(--btn-col);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--btn-bor);
+  margin: 1rem 0.3rem;
+  color: var(--btn-txt);
+  font-weight: bolder;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid var(--li-col);
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--btn-bor);
+  box-shadow: 3px 3px var(--btn-bor);
+}
